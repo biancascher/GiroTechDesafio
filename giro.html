@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <title> Sistema de Cálculo de Rendimento</title>
+</head>
+<body>
+    <h1>Programa de Cálculo de Rendimento com Juros Composto</h1>
+
+    <label for="in-investido">Capital investido (R$)</label>
+    <input type="text" id="in-investido">
+
+    <label for="in-tempo">Prazo de Investimento (meses)</label>
+    <input type="text" id="in-tempo">
+
+    <label for="in-taxa">Taxa de Juros (%)</label>
+    <input type="text" id="in-taxa">
+
+    <button id="btn-gerar">Gerar valor final</button>
+
+    <h3 id="out-montante"></h3>
+    <h3 id="out-resultado"></h3>
+    <h3 id="out-juros"></h3>
+
+    <script src="js/giro.js"></script>
+</body>
+</html>
